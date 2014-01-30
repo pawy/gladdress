@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Data" xml:space="preserve">
+    <value>Account Data</value>
+  </data>
+  <data name="Change_Password" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Create_Local_Login" xml:space="preserve">
+    <value>Create Local Login</value>
+  </data>
+  <data name="Create_Local_Login_Text" xml:space="preserve">
+    <value>You do not have a local username/password for this site. Create a local password, so you can log in without an external login.</value>
+  </data>
+  <data name="For_Developers" xml:space="preserve">
+    <value>For Developers</value>
+  </data>
+  <data name="For_Developers_Text" xml:space="preserve">
+    <value>&lt;p&gt;
+Getting updates on your customers /users addresses is very easy. Once you have the &lt;strong&gt;GladId&lt;/strong&gt;  you can get the up-to-date address and personal data by requesting it from our RESTful API.
+&lt;/p&gt;
+</value>
+  </data>
+  <data name="For_WebsiteOwners" xml:space="preserve">
+    <value>For Website- / Shop-Owners</value>
+  </data>
+  <data name="For_WebsiteOwners_Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;5 good reasons to use gladdress on your website:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Get up-to-date address data of your customers / contacts&lt;/li&gt;
+&lt;li&gt;Easy and fast integration&lt;/li&gt;
+&lt;li&gt;You can save the GladId &lt;strong&gt;additionally&lt;/strong&gt; to the address data&lt;/li&gt;
+&lt;li&gt;No risk for you, no additional effort&lt;/li&gt;
+&lt;li&gt;Offer your customers something valuable&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="Why_Gladdress_Text" xml:space="preserve">
+    <value>&lt;p&gt;Gladdress.com is your central online address management tool. Instead of notifying / changing every account of your online life, you change it &lt;strong&gt;once&lt;/strong&gt; and everyone get to know it.&lt;/p&gt;
+&lt;p&gt;Create as many profiles as you like and specify the shared data-fields.&lt;/p&gt;
+&lt;p&gt;You have full control over your privacy!&lt;/p&gt;
+&lt;p&gt;Once set up, your gladid can be used in
+            &lt;ul&gt;
+                &lt;li&gt;Online Shops&lt;/li&gt;
+                &lt;li&gt;Online Accounts&lt;/li&gt;
+                &lt;li&gt;Your Friend's Address Books&lt;/li&gt;
+            &lt;/ul&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Set_password" xml:space="preserve">
+    <value>Set password</value>
+  </data>
+  <data name="Use_ExternalLogin" xml:space="preserve">
+    <value>Use another service to log in</value>
+  </data>
+  <data name="Validation_Incorrect_Format" xml:space="preserve">
+    <value>Incorrect Format</value>
+  </data>
+  <data name="Validation_Incorrect_Email" xml:space="preserve">
+    <value>Incorrect Email</value>
+  </data>
+  <data name="Validation_Incorrect_Url" xml:space="preserve">
+    <value>Incorrect Url</value>
+  </data>
+  <data name="Validation_Incorrect_Date" xml:space="preserve">
+    <value>Incorrect Date</value>
+  </data>
+  <data name="One_source_for_your_address_data" xml:space="preserve">
+    <value>One source for your address data</value>
+  </data>
+  <data name="Register_Now" xml:space="preserve">
+    <value>Register Now</value>
+  </data>
+  <data name="Edit_your_Profile" xml:space="preserve">
+    <value>Edit your Profile</value>
+  </data>
+  <data name="See_where" xml:space="preserve">
+    <value>See where</value>
+  </data>
+  <data name="API_Documentation" xml:space="preserve">
+    <value>API Documentation</value>
+  </data>
+  <data name="Community" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="Applications" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="Plugins" xml:space="preserve">
+    <value>Plugins</value>
+  </data>
+  <data name="Apps_and_Plugins" xml:space="preserve">
+    <value>Apps &amp;amp; Plugins</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Documentation</value>
+  </data>
+  <data name="Available_Fields" xml:space="preserve">
+    <value>Available Fields</value>
+  </data>
+  <data name="API" xml:space="preserve">
+    <value>API</value>
+  </data>
+  <data name="EditAccountNav" xml:space="preserve">
+    <value>Hi {0}!</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="ExternalLoginProviderTitle" xml:space="preserve">
+    <value>Log in using your {0} account</value>
+  </data>
+  <data name="Registered_Logins" xml:space="preserve">
+    <value>Registered Logins</value>
+  </data>
+  <data name="RemoveExternalLoginProvider" xml:space="preserve">
+    <value>Remove this {0} login from your account</value>
+  </data>
+  <data name="Account_Details" xml:space="preserve">
+    <value>Account Details</value>
+  </data>
+  <data name="About_You" xml:space="preserve">
+    <value>About You</value>
+  </data>
+  <data name="Addresses" xml:space="preserve">
+    <value>Your Addresses</value>
+  </data>
+  <data name="Profiles" xml:space="preserve">
+    <value>Your Profiles</value>
+  </data>
+  <data name="Edit_Profile" xml:space="preserve">
+    <value>Edit Profile</value>
+  </data>
+  <data name="Profile_Information" xml:space="preserve">
+    <value>Profile Information</value>
+  </data>
+  <data name="select_all_none" xml:space="preserve">
+    <value>select all/none</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Add_Profile" xml:space="preserve">
+    <value>Add a new profile</value>
+  </data>
+  <data name="Edit_Address" xml:space="preserve">
+    <value>Edit Address</value>
+  </data>
+  <data name="Address_Information" xml:space="preserve">
+    <value>Address Information</value>
+  </data>
+  <data name="Add_Address" xml:space="preserve">
+    <value>Add a new address</value>
+  </data>
+  <data name="Address_Name_Placeholder" xml:space="preserve">
+    <value>Name of the Address e.g. Home / Work</value>
+  </data>
+  <data name="Profile_Name_Placeholder" xml:space="preserve">
+    <value>Name of the profile, e.g. E-Shops, Friends Contact, Social Media</value>
+  </data>
+  <data name="Message_InvalidUsername" xml:space="preserve">
+    <value>Invalid username or password</value>
+  </data>
+  <data name="Email_not_found" xml:space="preserve">
+    <value>Email not found</value>
+  </data>
+  <data name="MsgPasswortResetMailSent" xml:space="preserve">
+    <value>You should have received am email from us</value>
+  </data>
+  <data name="MsgPasswordChangedSuccess" xml:space="preserve">
+    <value>Your Password has been changed successfully</value>
+  </data>
+  <data name="MsgRemoveLoginSuccess" xml:space="preserve">
+    <value>The external login was removed.</value>
+  </data>
+  <data name="MsgError" xml:space="preserve">
+    <value>An error has occurred.</value>
+  </data>
+  <data name="MsgPasswordSet" xml:space="preserve">
+    <value>Your Passowrd has been set.</value>
+  </data>
+  <data name="MsgUserDeleted" xml:space="preserve">
+    <value>The User has been deleted</value>
+  </data>
+  <data name="MsgChangesSaved" xml:space="preserve">
+    <value>Your changes have been saved</value>
+  </data>
+  <data name="MsgAddressDeleted" xml:space="preserve">
+    <value>Address deleted</value>
+  </data>
+  <data name="MsgProfileDeleted" xml:space="preserve">
+    <value>Profile Deleted</value>
+  </data>
+  <data name="Account_Email" xml:space="preserve">
+    <value>Account Email</value>
+  </data>
+  <data name="Current_password" xml:space="preserve">
+    <value>Current password</value>
+  </data>
+  <data name="New_password" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="Confirm_new_password" xml:space="preserve">
+    <value>Confirm new password</value>
+  </data>
+  <data name="PasswordMinLengthErrorMessage" xml:space="preserve">
+    <value>The {0} must be at least {2} characters long.</value>
+  </data>
+  <data name="PasswordsDoNotMatchErrorMessage" xml:space="preserve">
+    <value>The new password and confirmation password do not match.</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Remember_me" xml:space="preserve">
+    <value>Remember me?</value>
+  </data>
+  <data name="Confirm_password" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="The_password_and_confirmation_password_do_not_match_" xml:space="preserve">
+    <value>The password and confirmation password do not match.</value>
+  </data>
+  <data name="The_new_password_and_confirmation_password_do_not_match_" xml:space="preserve">
+    <value>The new password and confirmation password do not match.</value>
+  </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>Name*</value>
+  </data>
+  <data name="MailPasswordReset_Subject" xml:space="preserve">
+    <value>Password Reset</value>
+  </data>
+  <data name="Reset_Password" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="Error_404_Text" xml:space="preserve">
+    <value>The resource you requested could not be found!</value>
+  </data>
+  <data name="Error_404_Title" xml:space="preserve">
+    <value>Not found</value>
+  </data>
+  <data name="Error_Error_Excuse" xml:space="preserve">
+    <value>We are terribly, terribly sorry for this</value>
+  </data>
+  <data name="Error_Error_Text" xml:space="preserve">
+    <value>An error occurred while processing your request.</value>
+  </data>
+  <data name="Error_Error_Title" xml:space="preserve">
+    <value>Sorry</value>
+  </data>
+  <data name="Help_Address_Overview" xml:space="preserve">
+    <value>Here you can find all your addresses. Create as many as you like.</value>
+  </data>
+  <data name="Help_Edit_Address" xml:space="preserve">
+    <value>This section is about your address. Please fill in only fields you plan to use in a profile.</value>
+  </data>
+  <data name="Help_Edit_Address_Overwrite_Fields" xml:space="preserve">
+    <value>The following fields are the the same fields as you can find in personal data. This fields are address specific, if you want to use an address with a different name (e.g. a friend or relative that receives packages for you)</value>
+  </data>
+  <data name="Help_Edit_Profile_Address_Data" xml:space="preserve">
+    <value>Please select the fields from your "{0}" address, that you want to have included in this profile.</value>
+  </data>
+  <data name="Help_Edit_Profile_GladId" xml:space="preserve">
+    <value>The GladId is the unique identifier for this profile. Send it to whoever you want to have the data you selected in this profile. Anybody who has your GladId will be able to get your up-to-date data.</value>
+  </data>
+  <data name="Help_Edit_Profile_Select_Fields_Personal_Data" xml:space="preserve">
+    <value>Please pick the fields from your personal data, that you want to share with this profile.</value>
+  </data>
+  <data name="Help_Profile_Overview" xml:space="preserve">
+    <value>Here you can find all your profiles. A profile is a set of data-fields, that you share with online-shops, social networks and your friends. Create as many profiles as you like and choose the shared data-fields per profile.</value>
+  </data>
+  <data name="Help_User_Data" xml:space="preserve">
+    <value>This section is about you. Personal information that does not change, like your name and your email. Please fill in only the fields you want plan to use in a profile.</value>
+  </data>
+  <data name="How_To_Use_Gladdress" xml:space="preserve">
+    <value>How to use Gladdress?</value>
+  </data>
+  <data name="How_To_Use_Gladdress_Text" xml:space="preserve">
+    <value>&lt;p&gt;
+    &lt;strong&gt;Gladdress is incredibly simple to use.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Login&lt;/li&gt;
+&lt;li&gt;Enter personal data&lt;/li&gt;
+&lt;li&gt;Enter Address(es)&lt;/li&gt;
+&lt;li&gt;Create Profile(s)&lt;/li&gt;
+&lt;li&gt;Share your GladId(s)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once you are logged in, by creating a local account or by using any Single-Sign-On application like Facebook or Google, you can enter your personal data and create as many addresses as you have (e.g. Home, Workplace, friend's place, pick-up station).&lt;br /&gt;
+Then you create a profile and specify the shared fields from the data you entered. You can create as many profiles as you like (e.g. online-shops, contact data for friends, social profile data).&lt;/p&gt;</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Why_Gladdress" xml:space="preserve">
+    <value>Why Gladdress?</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="MsgContactMailSent" xml:space="preserve">
+    <value>Thank you for your message. We will get in touch with you soon!</value>
+  </data>
+  <data name="Community_Lead" xml:space="preserve">
+    <value>We strongly appreciate your help!</value>
+  </data>
+  <data name="Community_Text" xml:space="preserve">
+    <value>&lt;p&gt;Having a supportive community is worth gold! Gladdress brings a free service and&lt;strong&gt;it will alway stay free&lt;/strong&gt;, in return&lt;/p&gt;</value>
+  </data>
+  <data name="Community_Source_code" xml:space="preserve">
+    <value>Source code</value>
+  </data>
+  <data name="Community_Internationalization" xml:space="preserve">
+    <value>Internationalization</value>
+  </data>
+  <data name="Community_Internationalization_Text" xml:space="preserve">
+    <value>&lt;p&gt;I18n - or internationalization is a big topic when it comes to addresses. Gladdress is located in Switzerland and we need your help to make it available in all languages and be able to represent addresses all over the world.&lt;/p&gt;
+&lt;p&gt;There is a Github Repository where everyone can edit the resource files to make it possible.&lt;/p&gt;</value>
+  </data>
+  <data name="Community_Source_code_Text" xml:space="preserve">
+    <value>&lt;p&gt;Although the heart of gladdress is not open source (due to security reasons). We strongly support the open source phylosophy.&lt;/p&gt;
+&lt;p&gt;It's free and always will be&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Do you want to be a part of it?&lt;/strong&gt; If you really want to take hands on the source code, you can. Just ask! If you proof to be a good developer, we will enhance gladdress together with you!&lt;/p&gt;</value>
+  </data>
+  <data name="Community_Field_discussions" xml:space="preserve">
+    <value>Field discussions</value>
+  </data>
+  <data name="Community_Field_discussions_Text" xml:space="preserve">
+    <value>&lt;p&gt;There is a Wiki on Github where we want to have discussions with you to identify address or profile fields we didn't think of. This way, we hope, gladdress will become the Swiss-Army-Knife in Address-Data-Management.&lt;/p&gt;</value>
+  </data>
+  <data name="Community_Supported_Applications" xml:space="preserve">
+    <value>Supported Applications</value>
+  </data>
+  <data name="Community_Supported_Applications_Text" xml:space="preserve">
+    <value>&lt;p&gt;Supported Applications are necessary for gladdress to work on the internet.&lt;/p&gt;
+&lt;p&gt;We are very happy to see that applications support the use of the GladId&lt;/p&gt;
+&lt;p&gt;Please let us know when your software supports gladdress so we can take it on the list&lt;/p&gt;</value>
+  </data>
+  <data name="Community_Plugins_and_Extensions" xml:space="preserve">
+    <value>Plugins and Extensions</value>
+  </data>
+  <data name="Community_Plugins_and_Extensions_Text" xml:space="preserve">
+    <value>&lt;p&gt;With the free and easy to use API, developers can integrate Gladdress in their software solutions.&lt;/p&gt;
+&lt;p&gt;As for open-source projects, and there are many CMS and e-commerce solutions out there, we rely on the community to build plugins to ensure Gladdress support.&lt;/p&gt;
+&lt;p&gt;If you build a plugin and want to share it, please let us know. We can host it and / or further support it.&lt;/p&gt;</value>
+  </data>
+  <data name="Tired_of_filling_out_forms" xml:space="preserve">
+    <value>Tired of filling out forms?</value>
+  </data>
+  <data name="Tired_of_filling_out_forms_text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;Do it one last time!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For each profile you created, you will receive a GladId; a unique code that identifies your profile.&lt;/p&gt;
+&lt;p&gt;This GladId is what you enter in online-shops instead of your whole address data. This means that you have to provide &lt;strong&gt;only our GladId&lt;/strong&gt; and the recipient is able to request your up-to-date contact data directly from gladdress.com.&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;Pretty simple eh?&lt;/strong&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="MsgEmailChangedSuccess" xml:space="preserve">
+    <value>Your account email has been changed</value>
+  </data>
+</root>
